@@ -15,6 +15,7 @@ Contenido: texto, imagenes, videos, svg
     border-width: 10px;
     border-bottom-left-radius: 20px;
     border-bottom-right-radius: 20px;
+    margin: 100px;
 
 }
 
@@ -29,6 +30,7 @@ Contenido: texto, imagenes, videos, svg
     border-width: 10px;
     border-radius: 10px;
     box-sizing: border-box;
+    margin: 100px;
 }
 /* estilo de identificador se escribe con #
 solo puede ser unico para un elemento en todo el documento
@@ -42,6 +44,7 @@ solo puede ser unico para un elemento en todo el documento
     border-top: red 20px outset;
     border-bottom: blueviolet 14px ridge;
     border-left: 10px greenyellow double;
+    margin: 100px;
 }
 #caja4{
     display: block;
@@ -51,4 +54,5 @@ solo puede ser unico para un elemento en todo el documento
     border-top-color: blue;
     border-top-style: double;
     border-top-width: 20px;
+    margin: 100px;
 }
