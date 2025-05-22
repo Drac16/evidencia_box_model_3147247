@@ -1,0 +1,50 @@
+
+/* van a ser colocados a todas las etiquetas
+*/
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-align: center;
+    font-family: fantasy;
+}
+
+/* auto sirve para distribuir la dimension al tamaño libre del dispositvo */
+.card{
+    border: transparent 5px solid;
+    width: 400px;
+    height: 520px;
+    background-color: #8c4637;
+    margin: 20px auto 20px auto;
+    border-radius: 20px;
+    border-radius: 20px;
+
+}
+.imagen{
+    width: 200px;
+    height: 200px;
+    margin: 20px 100px 20px 100px;
+    border-radius: 100px;
+    object-fit: cover;
+}
+
+.card .contenedor{
+    margin: 20px;
+}
+
+.contenedor > h1{
+    display: block;
+    font-size: 40px;
+}
+
+.contenedor > p {
+    font-size: 15px;
+    font-family: 'Arial';
+}
+
+/* */
+p + a{
+    display: block;
+    background-color: #8c4637;
+}
