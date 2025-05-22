@@ -1,0 +1,54 @@
+/*Selector de clase */
+/* Modelo de caja
+Contenido: texto, imagenes, videos, svg
+    en una tiene que haber contenido o debe tener ancho y alto
+    padding (relleno) capa entre el contenido y el borde)
+*/
+
+.box1{
+    display: block;
+    background-color: springgreen;
+    height: 200px;
+    padding: 50px;
+    border-style: solid;
+    border-color: black;
+    border-width: 10px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+
+}
+
+.box2{
+    display: block;
+    background-color: olivedrab;
+    width: 400px;
+    height: 100px;
+    padding: 30px 40px 10px 20px;
+    border-style: inset;
+    border-color: black;
+    border-width: 10px;
+    border-radius: 10px;
+    box-sizing: border-box;
+}
+/* estilo de identificador se escribe con #
+solo puede ser unico para un elemento en todo el documento
+*/
+
+#caja3{
+    display: block;
+    padding: 40px 20px;
+    background-color: brown;
+    height: 250px;
+    border-top: red 20px outset;
+    border-bottom: blueviolet 14px ridge;
+    border-left: 10px greenyellow double;
+}
+#caja4{
+    display: block;
+    background-color: aqua;
+    height: 100;
+    padding: 5px;
+    border-top-color: blue;
+    border-top-style: double;
+    border-top-width: 20px;
+}
